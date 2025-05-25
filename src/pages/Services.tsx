@@ -112,7 +112,7 @@ const Services: React.FC = () => {
         subtitle="Professional home appliance repair and maintenance services for all your needs."
         ctaText="Book a Service"
         ctaLink="/contact"
-        backgroundImage="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80"
+        backgroundImage="/images/about.png"
       />
       
       {/* Services Overview */}
@@ -269,7 +269,7 @@ const Services: React.FC = () => {
           <p className="text-lg mb-8 max-w-2xl mx-auto">Our team of expert technicians is ready to help you with all your appliance repair and maintenance needs.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-cooler-600">
-              <a href="tel:1234566790">Call: 123-456-6790</a>
+              <a href="tel:9092565056">Call: 9092565056</a>
             </Button>
             <Button asChild className="bg-white text-cooler-600 hover:bg-cooler-50">
               <Link to="/contact">Book a Service</Link>

@@ -129,7 +129,7 @@ const ContactForm: React.FC = () => {
             className={`w-full px-4 py-3 border rounded-md focus:ring-2 focus:ring-cooler-300 focus:border-cooler-300 outline-none transition ${
               errors.phone ? 'border-red-500' : 'border-gray-300'
             }`}
-            placeholder="1234567890"
+            placeholder="Phone Number"
           />
           {errors.phone && <p className="mt-1 text-red-500 text-sm">{errors.phone}</p>}
         </div>

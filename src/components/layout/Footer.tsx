@@ -32,19 +32,23 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4 text-cooler-300">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-cooler-300 transition-colors">Home</Link>
+                <Link to="/" className="text-gray-400 hover:text-cooler-300 transition-colors"
+                  onClick={() => window.scrollTo(0, 0)}>Home</Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-400 hover:text-cooler-300 transition-colors">About Us</Link>
+                <Link to="/about" className="text-gray-400 hover:text-cooler-300 transition-colors"
+                  onClick={() => window.scrollTo(0, 0)}>About Us</Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-400 hover:text-cooler-300 transition-colors">Services</Link>
+                <Link to="/services" className="text-gray-400 hover:text-cooler-300 transition-colors"
+                  onClick={() => window.scrollTo(0, 0)}>Services</Link>
               </li>
               {/* <li>
                 <Link to="/sale" className="text-gray-400 hover:text-cooler-300 transition-colors">Sale</Link>
               </li> */}
               <li>
-                <Link to="/contact" className="text-gray-400 hover:text-cooler-300 transition-colors">Contact Us</Link>
+                <Link to="/contact" className="text-gray-400 hover:text-cooler-300 transition-colors"
+                  onClick={() => window.scrollTo(0, 0)}>Contact Us</Link>
               </li>
             </ul>
           </div>
@@ -68,19 +72,20 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 mt-1 text-cooler-300 flex-shrink-0" />
-                <span className="text-gray-400">Azad Nagar, Junction, Salem - 636006</span>
+                <span className="text-gray-400">Azad Nagar, Suramanalam , Salem - 636005</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 text-cooler-300 flex-shrink-0" />
-                <span className="text-gray-400">123 456 6790</span>
+                <span className="text-gray-400">9092565056</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 text-cooler-300 flex-shrink-0" />
-                <span className="text-gray-400">info@coolerhub.com</span>
+                <span className="text-gray-400">coolerhub12@gmail.com</span>
               </li>
               <li className="flex items-center">
                 <Clock size={20} className="mr-2 text-cooler-300 flex-shrink-0" />
-                <span className="text-gray-400">Mon-Sat: 9AM - 7PM</span>
+                <span className="text-gray-400">Available 24/7</span>
+                {/* <span className="text-gray-400">Mon-Sat: 9AM - 7PM</span> */}
               </li>
             </ul>
           </div>

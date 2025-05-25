@@ -11,7 +11,7 @@ const About: React.FC = () => {
         subtitle="Learn about our journey, our mission, and our commitment to excellence in home appliance services."
         ctaText="Contact Us"
         ctaLink="/contact"
-        backgroundImage="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80"
+        backgroundImage="/images/about.png"
       />
       
       {/* Our Story Section */}
@@ -32,7 +32,7 @@ const About: React.FC = () => {
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80" 
+                src="/images/about.png" 
                 alt="Cooler Hub Team" 
                 className="w-full h-auto"
               />

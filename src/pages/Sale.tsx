@@ -278,9 +278,9 @@ const Sale: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-cooler-600">
-              <a href="tel:1234566790">
+              <a href="tel:9092565056">
                 <Phone className="mr-2 h-4 w-4" />
-                Call: 123-456-6790
+                Call: 9092565056
               </a>
             </Button>
             <Button asChild className="bg-white text-cooler-600 hover:bg-cooler-50">

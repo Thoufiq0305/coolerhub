@@ -11,8 +11,8 @@ const Contact: React.FC = () => {
         title="Contact Us"
         subtitle="Get in touch with our team for repairs, services, or inquiries."
         ctaText="Call Us Now"
-        ctaLink="tel:1234566790"
-        backgroundImage="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80"
+        ctaLink="tel:9092565056"
+        backgroundImage="/images/contact.png"
       />
       
       {/* Contact Info & Form Section */}
@@ -44,8 +44,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="font-bold mb-1">Phone Number</h3>
                     <p className="text-gray-600">
-                      <a href="tel:1234566790" className="hover:text-cooler-600 transition-colors">
-                        123 456 6790
+                      <a href="tel:9092565056" className="hover:text-cooler-600 transition-colors">
+                        9092565056
                       </a>
                     </p>
                   </div>
@@ -58,8 +58,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="font-bold mb-1">Email Address</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@coolerhub.com" className="hover:text-cooler-600 transition-colors">
-                        info@coolerhub.com
+                      <a href="mailto:coolerhub12@gmail.com" className="hover:text-cooler-600 transition-colors">
+                        coolerhub12@gmail.com
                       </a>
                     </p>
                   </div>
@@ -148,11 +148,11 @@ const Contact: React.FC = () => {
             Having an urgent appliance issue? Our emergency service team is available to help.
           </p>
           <a
-            href="tel:1234566790"
+            href="tel:9092565056"
             className="bg-white text-cooler-600 hover:bg-cooler-50 py-3 px-8 rounded-md font-medium transition-colors duration-300 inline-flex items-center"
           >
             <Phone className="mr-2 h-5 w-5" />
-            Call Emergency Service: 123-456-6790
+            Call Emergency Service: 9092565056
           </a>
         </div>
       </section>

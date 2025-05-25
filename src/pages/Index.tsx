@@ -47,19 +47,19 @@ const testimonials = [
     name: 'Rajesh Kumar',
     role: 'Homeowner',
     testimonial: 'Amazing service! The technician was prompt, professional and fixed my AC in no time. Highly recommended!',
-    image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=150&h=150'
+    image: '/images/testimonial1.png'
   },
   {
     name: 'Priya Sharma',
     role: 'Local Business Owner',
     testimonial: 'Cooler Hub has been maintaining all our office appliances for the past year. Reliable, efficient and affordable service!',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150&h=150'
+    image: '/images/testimonial2.png'
   },
   {
     name: 'Arjun Patel',
     role: 'Homeowner',
     testimonial: 'I was impressed with how quickly they diagnosed and fixed my refrigerator issue. Great value for money!',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=150&h=150'
+    image: '/images/testimonial3.png'
   }
 ];
 
@@ -67,11 +67,16 @@ const Index: React.FC = () => {
   return (
     <div>
       <Hero 
-        title="Expert Home Appliance Repair & Services"
+        title="Welcome Home Appliance Service Center"
         subtitle="Professional, reliable, and affordable home appliance repair services in Salem. One call solution for all your appliance needs."
-        ctaText="Book a Service Now"
-        ctaLink="/contact"
-        backgroundImage="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80"
+        //  ctaText="Book a Service Now"
+        // ctaLink="/contact"
+        ctaText="Call Us Now"
+        ctaLink="tel:9092565056"
+        whatsappText="Chat on WhatsApp"
+        whatsappLink="https://wa.me/9092565056"
+
+        backgroundImage="/images/home.png"
       />
       
       {/* Why Choose Us Section */}
@@ -147,9 +152,9 @@ const Index: React.FC = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-cooler-600">
-                <a href="tel:1234566790">
+                <a href="tel:9092565056">
                   <Phone className="mr-2 h-4 w-4" />
-                  Call: 123-456-6790
+                  Call: 9092565056
                 </a>
               </Button>
               <Button asChild className="bg-white text-cooler-600 hover:bg-cooler-50">
